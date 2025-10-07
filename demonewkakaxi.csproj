@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="data\Новая папка\**" />
+    <Compile Remove="Новая папка\**" />
+    <EmbeddedResource Remove="data\Новая папка\**" />
+    <EmbeddedResource Remove="Новая папка\**" />
+    <None Remove="data\Новая папка\**" />
+    <None Remove="Новая папка\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EPPlus" Version="8.2.0" />
     <PackageReference Include="Npgsql" Version="9.0.3" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
