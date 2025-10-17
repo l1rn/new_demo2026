@@ -47,3 +47,10 @@ D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-window
 D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.MainForm.resources
 D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.ProductCard.resources
 D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.ShowForm.resources
+D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.AddForm.resources
+D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.EditForm.resources
+D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.Properties.Resources.resources
+D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.AddFormOrder.resources
+D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.OrderCard.resources
+D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.ShowFormOrder.resources
+D:\students\new_gen_ip402\Таксатов\demonewkakaxi\obj\Debug\net8.0-windows\demonewkakaxi.ui.EditFormOrder.resources

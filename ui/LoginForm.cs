@@ -57,7 +57,8 @@ namespace demonewkakaxi
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-
+            textBox1.Text = "94d5ous@gmail.com";
+            textBox2.Text = "uzWC67";
         }
     }
 }

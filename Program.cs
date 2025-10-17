@@ -30,10 +30,8 @@ namespace demonewkakaxi
                     }
                     if (db.Orders.Count() == 0)
                     {
-
+                        reader.ReadOrder(db, "D:\\students\\new_gen_ip402\\Таксатов\\demonewkakaxi\\data\\Заказ_import.xlsx");
                     }
-                    reader.ReadOrder(db, "D:\\students\\new_gen_ip402\\Таксатов\\demonewkakaxi\\data\\Заказ_import.xlsx");
-
                     MessageBox.Show("дб подключено");
                 }
             }
@@ -42,5 +40,7 @@ namespace demonewkakaxi
             }
             Application.Run(new LoginForm());
         }
+
+        
     }
 }

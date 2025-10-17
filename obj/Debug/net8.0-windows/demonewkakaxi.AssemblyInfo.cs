@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("demonewkakaxi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6549557b69bf49a2ee3c6e01124c4a87662cf373")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffde493588e7e9c9512e9cef248d47da687c12f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("demonewkakaxi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("demonewkakaxi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

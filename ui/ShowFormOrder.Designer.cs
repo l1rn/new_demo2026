@@ -1,6 +1,6 @@
 ﻿namespace demonewkakaxi.ui
 {
-    partial class ShowForm
+    partial class ShowFormOrder
     {
         /// <summary>
         /// Required designer variable.
@@ -28,24 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShowForm));
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
             label1 = new Label();
             panel2 = new Panel();
-            panel3 = new Panel();
-            comboBox1 = new ComboBox();
-            button2 = new Button();
-            textBox1 = new TextBox();
-            button1 = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.Controls.Add(panel3);
             panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Top;
@@ -80,53 +72,8 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(891, 375);
             panel2.TabIndex = 4;
-            panel2.Paint += panel2_Paint;
             // 
-            // panel3
-            // 
-            panel3.Controls.Add(comboBox1);
-            panel3.Controls.Add(button2);
-            panel3.Controls.Add(textBox1);
-            panel3.Controls.Add(button1);
-            panel3.Location = new Point(221, 62);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(639, 46);
-            panel3.TabIndex = 6;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(324, 11);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(217, 25);
-            comboBox1.TabIndex = 11;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(547, 12);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 10;
-            button2.Text = "Фильтр";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(17, 11);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(186, 25);
-            textBox1.TabIndex = 9;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(209, 11);
-            button1.Name = "button1";
-            button1.Size = new Size(87, 25);
-            button1.TabIndex = 8;
-            button1.Text = "Поиск";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // ShowForm
+            // ShowFormOrder
             // 
             AutoScaleDimensions = new SizeF(8F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -134,15 +81,12 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             Font = new Font("Times New Roman", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "ShowForm";
+            Name = "ShowFormOrder";
             Text = "ShowForm";
-            Load += ShowForm_Load;
+            Load += ShowFormOrder_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -152,10 +96,5 @@
         private Panel panel2;
         private Label label1;
         private PictureBox pictureBox1;
-        private Panel panel3;
-        private ComboBox comboBox1;
-        private Button button2;
-        private TextBox textBox1;
-        private Button button1;
     }
 }

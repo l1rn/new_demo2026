@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             button1 = new Button();
@@ -114,6 +115,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Font = new Font("Times New Roman", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LoginForm";
             Text = "Форма Авторизация";
             Load += LoginForm_Load;

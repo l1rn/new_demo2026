@@ -114,6 +114,9 @@ namespace demonewkakaxi
                 {
                     parts[i] = parts[i].Trim();
                 }
+    
+                Guid guid = Guid.NewGuid();
+                int orderNumber = 1;
                 for(int i = 0; i < parts.Length; i += 2)
                 {
                     if(i + 1  < parts.Length)
@@ -133,9 +136,12 @@ namespace demonewkakaxi
                             Status = status,
                             User = db.Users.FirstOrDefault(u => u.Name == nameUser),
                             PickUpPoint = db.PickUpPoints.Find(int.Parse(idPickUpPoint)),
-                            Product = db.Products.FirstOrDefault(p => p.Article == articleValue)
+                            Product = db.Products.FirstOrDefault(p => p.Article == articleValue),
+                            OrderGroupId = guid,
+                            OrderNumber = orderNumber
                         };
 
+                        orderNumber++;
                         db.Orders.Add(order);
                     }
                 }
